@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sAmLd9r5QoA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\habib\\source\\repos\\IMS\\IMS\\IMS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\habib\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
