@@ -22,14 +22,10 @@ jobs:
           dotnet-version: '8.0.x'  # Set this to your target .NET version
 
       - name: Restore dependencies
-        run: dotnet restore ims-aspnet-ci-cd/IMS.csproj
+        run: dotnet restore ims-aspnet-ci-cd/IMS.csproj  # Updated path to IMS.csproj
 
       - name: Build
-        run: dotnet build ims-aspnet-ci-cd/IMS.csproj --configuration Release --no-restore
-
-      # Add a step to list the directory structure
-      - name: List Directory Structure
-        run: ls -R
+        run: dotnet build ims-aspnet-ci-cd/IMS.csproj --configuration Release --no-restore  # Updated path to IMS.csproj
 
       - name: Run Tests
-        run: dotnet test IMSTests/IMSTests.csproj --no-restore --verbosity normal
+        run: dotnet test ims-aspnet-ci-cd/IMSTests/IMSTests.csproj --no-restore --verbosity normal  # Adjust path if necessary
