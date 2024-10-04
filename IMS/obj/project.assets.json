@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\habib\\source\\repos\\IMS\\IMS\\IMS.csproj",
+      "projectUniqueName": "C:\\Users\\habib\\Documents\\GitHub\\ims-aspnet-ci-cd\\IMS\\IMS.csproj",
       "projectName": "IMS",
-      "projectPath": "C:\\Users\\habib\\source\\repos\\IMS\\IMS\\IMS.csproj",
+      "projectPath": "C:\\Users\\habib\\Documents\\GitHub\\ims-aspnet-ci-cd\\IMS\\IMS.csproj",
       "packagesPath": "C:\\Users\\habib\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\habib\\source\\repos\\IMS\\IMS\\obj\\",
+      "outputPath": "C:\\Users\\habib\\Documents\\GitHub\\ims-aspnet-ci-cd\\IMS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\habib\\AppData\\Roaming\\NuGet\\NuGet.Config",

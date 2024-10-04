@@ -27,5 +27,5 @@ jobs:
       - name: Build
         run: dotnet build IMS/IMS.csproj --configuration Release --no-restore
 
-      - name: Test
-        run: dotnet test IMS/IMS.csproj --no-restore --verbosity normal
+      - name: Run Tests
+        run: dotnet test IMSTests/IMSTests.csproj --no-restore --verbosity normal
